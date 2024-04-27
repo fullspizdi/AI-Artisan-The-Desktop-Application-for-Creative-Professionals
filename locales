@@ -1,0 +1,30 @@
+# locales/ directory is intended to store localization files for different languages supported by AI Artisan.
+# Each file within this directory will contain language-specific strings and other locale-specific data
+# to be used throughout the application for multilingual support.
+
+# Example of a simple JSON structure for English (US):
+{
+  "appTitle": "AI Artisan",
+  "menu": {
+    "file": "File",
+    "edit": "Edit",
+    "view": "View",
+    "help": "Help"
+  },
+  "messages": {
+    "welcome": "Welcome to AI Artisan",
+    "exitConfirmation": "Are you sure you want to exit?"
+  },
+  "errors": {
+    "networkError": "Network error, please check your connection."
+  }
+}
+
+# Similar JSON structures should be created for other supported languages:
+# - French (France) - fr-FR.json
+# - Spanish (Spain) - es-ES.json
+# - German (Germany) - de-DE.json
+# - Chinese (China) - zh-CN.json
+
+# Each JSON file will be named according to the locale code and will contain the translated strings.
+# The application will load the appropriate file based on the user's language settings.
